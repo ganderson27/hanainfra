@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sapSystemId": {
+      "value": "DEV"
+    },
+    "osType": {
+      "value": "RHEL 7"
+    },
+    "dbtype": {
+      "value": "HANA"
+    },
+    "sapSystemSize": {
+      "value": "Small"
+    },
+    "systemAvailability": {
+      "value": "HA"
+    },
+    "adminUsername": {
+      "value": "bubba"
+    },
+    "authenticationType": {
+      "value": "password"
+    },
+    "adminPasswordOrKey": {
+      "value": "Iloveneudesic!"
+    },
+    "subnetId": {
+      "value": "/subscriptions/67878186-3d9f-4047-852d-199eee77b2c1/resourceGroups/DTE-E2-TEST-NS-RG/providers/Microsoft.Network/virtualNetworks/DTE-E2-TEST-INT-BE-VNet-10.214.72.0_22/subnets/DTE-E2-TEST-INT-BE-SAP-10.214.72.128_26"
+    },
+     "_artifactsLocation": {
+      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sap-3-tier-marketplace-image-multi-sid-db-md/"
+    }
+  }
+}
