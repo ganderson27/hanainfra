@@ -128,7 +128,7 @@
       },
       "RHEL 7": {
         "sku": "7.4",
-        "offer": "RHEL-SAP",
+        "offer": "RHEL-SAP-HA",
         "publisher": "RedHat",
         "version": "latest",
         "OSType": "Linux",
